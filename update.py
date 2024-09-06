@@ -1,7 +1,7 @@
 from books import books_records
 
-def update_book(books, book_id, new_date, new_status):
-    for book in books:
+def update_book(books_records, book_id, new_date, new_status):
+    for book in books_records:
         if book['id'] == book_id:
             book['date'] = new_date
             book['status'] = new_status
@@ -26,7 +26,7 @@ def get_user_input():
 def main():
     book_id, new_date, new_status = get_user_input()
     if book_id is not None:
-        update_book(books_record, book_id, new_date, new_status)
+        update_book(books_records, book_id, new_date, new_status)
 
 if __name__ == "__main__":
     main()
