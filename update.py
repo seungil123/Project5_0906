@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from books import books_record
 
 def update_book(books, book_id, new_date, new_status):
@@ -31,16 +30,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-=======
-# 도서목록
-books = [{"id": "001", "title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "date": "2024-09-06", "status": "대출 중"},
-    {"id": "002", "title": "1984", "author": "George Orwell", "date": "2024-08-20", "status": "반납 완료"},
-    {"id": "003", "title": "To Kill a Mockingbird", "author": "Harper Lee", "date": "2024-09-01", "status": "대출 중"}
-]
-
-# 도서목록 출력
-for book in books:
-  print(f"ID: {book['id']}, 제목: {book['title']}, 작가: {book['author']}, 대출일자: {book['date']}, 상태: {book['status']}")
-
-  
->>>>>>> 988a55b25f80001972a88bebe2e014584c5521c2
