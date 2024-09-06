@@ -16,8 +16,8 @@
 - Read(조회) : 도서 목록 불러오기 -> select * from <table명>
 
 ====================================================================
-id  varchar(10),		/* Book ID */
-title 	varchar(30),		/* Book Title */
-author  varchar(20), 	/* Book's author */
-status  varchar(30),  	/* Borrow status */
-date  varchar(20)  	        /* Borrow Date */  
+- id  varchar(10),		/* Book ID */
+- title 	varchar(30),		/* Book Title */
+- author  varchar(20), 	/* Book's author */
+- status  varchar(30),  	/* Borrow status */
+- date  varchar(20)  	        /* Borrow Date */  
