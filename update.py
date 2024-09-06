@@ -11,7 +11,7 @@ def update_book(books_records, book_id, new_date, new_status):
 
 def get_user_input():
     try:
-        book_id = int(input("책 ID를 입력하세요: "))
+        book_id = input("책 ID를 입력하세요: ")
         new_date = input("새로운 날짜를 입력하세요 (YYYY-MM-DD): ")
         new_status = input("새로운 상태를 입력하세요: ")
         
