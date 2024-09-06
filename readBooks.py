@@ -1,4 +1,4 @@
-# 도서 목록을 리스트로 관리 (각 책은 딕셔너리
+from books_records import books
 
 
 def read_books():
