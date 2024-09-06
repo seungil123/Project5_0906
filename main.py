@@ -1,5 +1,7 @@
 from readBooks import read_books
-
+from update import update_book
+from delete import delete_book_by_user_input
+from createBooks import 
 
 while True:
     print("================================================")
@@ -15,7 +17,7 @@ while True:
     if T=='1':
         read_books()
     elif T=='2':
-        pass
+        update_book()
     elif T=='3':
         pass
     elif T=='4':
