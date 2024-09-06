@@ -8,3 +8,16 @@
 3.branch 병합은 일괄로 팀장이 실행
 4.수정하기전에 github에서 pull해오기 
 
+## 도서 대출 관리 프로그램
+도서 목록 : 책 고유 id, 책 제목, 작가, 대출 일자, 대출 반납 상태 확인
+Create(입력) : 책 고유id, 책 제목, 작가, 대출 일자, 대출-반납 상태를
+Update(수정) : 대출 일자, 대출-반납 상태
+Delete(삭제) : 책 제목, 작가, 대출 일자, 대출-반납 상태
+Read(조회) : 도서 목록 불러오기 -> select * from <table명>
+
+====================================================================
+id  varchar(10),		/* Book ID */
+title 	varchar(30),		/* Book Title */
+author  varchar(20), 	/* Book's author */
+status  varchar(30),  	/* Borrow status */
+date  varchar(20)  	        /* Borrow Date */  
