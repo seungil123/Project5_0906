@@ -1,4 +1,4 @@
-from books import books_record
+from books import books_records
 
 # 도서 추가 (Create)
 def create_book(books):
