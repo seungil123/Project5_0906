@@ -6,3 +6,6 @@ def update_book(book_id, borrow_date=None, is_returned=None):
       else:
         if borrow_date is not None:
             books[book_id]['borrow_date'] = borrow_date
+        if is_returned is not None:
+            books[book_id]['is_returned'] = is_returned
+        print(f"책 ID {book_id}의 정보가 업데이트되었습니다.")
