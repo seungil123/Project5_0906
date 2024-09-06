@@ -1,3 +1,5 @@
+from books import books_record
+
 # 도서 추가 (Create)
 def create_book(books):
     book_id = input("책 ID를 입력하세요: ")
@@ -9,4 +11,3 @@ def create_book(books):
     new_book = {"id": book_id, "title": title, "author": author, "date": date, "status": status}
     books.append(new_book)
     print(f"책 '{title}'이(가) 추가되었습니다.")
-    
