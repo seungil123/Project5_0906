@@ -20,4 +20,12 @@
 - title 	varchar(30),		/* Book Title */
 - author  varchar(20), 	/* Book's author */
 - status  varchar(30),  	/* Borrow status */
-- date  varchar(20)  	        /* Borrow Date */  
+- date  varchar(20)  	        /* Borrow Date */
+
+- ##역할 분담
+- update:이민서
+- read:김소희
+- delete:조승일
+- create:이동희
+- 
+  
